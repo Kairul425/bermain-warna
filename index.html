@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training DOM</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      .salmon {
+        background-color: salmon;
+      }
+
+      .merah {
+        margin: 10px auto;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+      }
+
+      .hijau {
+        margin: 10px auto;
+        width: 50px;
+        height: 50px;
+        background-color: green;
+      }
+
+      .biru {
+        margin: 10px auto;
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bermain Dengan Warna</h1>
+
+    <button type="button" id="ubahWarna">ubah warna</button>
+
+    <br /><br />
+
+    <div class="merah"></div>
+    <p id="tMerah">255</p>
+    <input type="range" name="sMerah" min="0" max="255" value="255" />
+
+    <div class="hijau"></div>
+    <p id="tHijau">255</p>
+    <input type="range" name="sHijau" min="0" max="255" value="255" />
+
+    <div class="biru"></div>
+    <p id="tBiru">255</p>
+    <input type="range" name="sBiru" min="0" max="255" value="255" />
+
+    <script src="script.js"></script>
+  </body>
+</html>
